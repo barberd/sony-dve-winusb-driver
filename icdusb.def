@@ -1,0 +1,14 @@
+LIBRARY ICDUSB
+EXPORTS
+    SonyUsbEnumerateDevices
+    SonyUsbGetDeviceName
+    SonyUsbOpen
+    SonyUsbOpenOriginal
+    SonyUsbClose
+    SonyUsbControlSend
+    SonyUsbControlRecive
+    SonyUsbDataSend
+    SonyUsbDataRecive
+    SonyUsbCheckMyDevice
+    SonyUsbGetTimeOut
+    SonyUsbSetTimeOut

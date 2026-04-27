@@ -1,0 +1,20 @@
+LIBRARY IcdUsb3
+EXPORTS
+    SonyUsbEnumerateDevices
+    SonyUsbEnumerateDevicesGuid
+    SonyUsbGetDeviceName
+    SonyUsbOpen
+    SonyUsbOpenOriginal
+    SonyUsbOpenGuid
+    SonyUsbOpenOriginalGuid
+    SonyUsbClose
+    SonyUsbControlSend
+    SonyUsbControlRecive
+    SonyUsbDataSend
+    SonyUsbDataRecive
+    SonyUsbDataSendFileIO
+    SonyUsbDataReciveFileIO
+    SonyUsbBulkReset
+    SonyUsbSetTimeOut
+    SonyUsbGetTimeOut
+    SonyUsbCheckMyDevice
