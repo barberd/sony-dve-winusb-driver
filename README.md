@@ -61,7 +61,7 @@ make debug
 ## Installation
 
 1. Download the [latest release](https://github.com/barberd/sony-dve-winusb-driver/releases) zip and extract it.
-2. Install [Sony Digital Voice Editor 3.2](https://www.sony-asia.com/electronics/support/digital-voice-recorders-icd-series/icd-px720/downloads/Y0015358). **Do not reboot after install.**
+2. Install [Sony Digital Voice Editor 3.2](https://www.sony-asia.com/electronics/support/digital-voice-recorders-icd-series/icd-px720/downloads/Y0015358). A warning will pop up that it cannot install the driver — just close it. **Do not reboot after install.**
 3. Delete `C:\Windows\System32\drivers\PxHlpa64.sys` (Roxio driver that causes BSODs on modern Windows).
 4. Copy `ICDUSB.dll`, `IcdUsb2.dll`, and `IcdUsb3.dll` to `C:\Windows\SysWOW64\`, replacing the originals.
 5. Install [Zadig](https://zadig.akeo.ie) and assign the **WinUSB** driver to your Sony recorder.
